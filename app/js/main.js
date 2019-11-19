@@ -28,4 +28,22 @@ $(function(){
      $('.header__menu-btn').on('click', function () {
        $('.header__menu > ul').slideToggle();
      });
+
+   $('.slider__blog-inner').slick({
+     slidesToShow: 1,
+     slidesToScroll: 1,
+     arrows: true,
+     fade: true,
+     autoplay: false
+   });
+
+  $('.slider__text-inner').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    autoplay: false,
+    dots:true
+  });
+  var mixer = mixitup('.portfolio__inner-box');
 });
