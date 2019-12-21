@@ -46,4 +46,5 @@ $(function(){
     dots:true
   });
   var mixer = mixitup('.portfolio__inner-box');
+
 });

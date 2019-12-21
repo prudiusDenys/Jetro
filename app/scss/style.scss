@@ -616,9 +616,11 @@ margin-bottom: 9px;
     background-image: url("../images/blog/icons/icon-2.png");
   }
 }
-
-iframe{
+.section__item-video{
+  img{
+  max-width: 670px;
   width: 100%;
+  }
 }
 .section__item-video{
   position: relative;
